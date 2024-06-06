@@ -6,6 +6,8 @@ const fs = require('fs');
 
 app.use(bodyParser.json());
 
+// lalala   
+
 // Create a new comment
 app.post('/comments', (req, res) => {
   const comment = req.body;
